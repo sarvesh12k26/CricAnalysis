@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+{% load staticfiles%}
+<html lang="en">
+<head>
+
+	<title>CricAnalysis</title>
+
+	<!-- Required meta tags always come first -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="{%static 'Bootstrap2/dist/css/bootstrap-reboot.css'%}">
+	<link rel="stylesheet" type="text/css" href="{% static 'Bootstrap2/dist/css/bootstrap.css' %}">
+	<link rel="stylesheet" type="text/css" href="{%static 'Bootstrap2/dist/css/bootstrap-grid.css' %}">
+
+	<!-- Main Styles CSS -->
+	<link rel="stylesheet" type="text/css" href="{%static 'css2/main.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{%static 'css2/fonts.min.css' %}">
+
+	<!-- Main Font -->
+	<script src="{%static 'js2/webfontloader.min.js' %}"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: ['Roboto:300,400,500,700:latin']
+			}
+		});
+	</script>
+
+</head>
+<body class="body-bg-white">
+
+
+
+<!-- Stunning header -->
+
+<div class="stunning-header bg-primary-opacity" style="background-image: url({% static 'img2/cover.jpg' %}); background-repeat: no-repeat; background-position: center; background-color: black;">
+
+
+	<!-- Header Standard Landing  -->
+
+	<div class="header--standard header--standard-landing" id="header--standard">
+		<div class="container">
+			<div class="header--standard-wrap" style="margin:10px;">
+
+				<a href="67-OlympusCompanyPageMerchandiseMasonry.html#" class="logo">
+					<div class="img2-wrap">
+						<img src="{% static 'img2/logo.png' %}" alt="Olympus">
+						<img src="{% static 'img2/logo-colored-small.png' %}" alt="Olympus" class="logo-colored">
+					</div>
+					<div class="title-block">
+						<h6 class="logo-title">CricAnalysis</h6>
+						<div class="sub-title">Statistics for Geeks</div>
+					</div>
+				</a>
+
+				<a href="67-OlympusCompanyPageMerchandiseMasonry.html#" class="open-responsive-menu js-open-responsive-menu">
+					<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- ... end Header Standard Landing  -->
+	<div class="header-spacer--standard"></div>
+
+	<div class="stunning-header-content">
+		<h1 class="stunning-header-title">Big Bash Teams</h1>
+		<ul class="breadcrumbs">
+			<li class="breadcrumbs-item">
+				<a href="67-OlympusCompanyPageMerchandiseMasonry.html#">Home</a>
+				<span class="icon breadcrumbs-custom">/</span>
+			</li>
+			<li class="breadcrumbs-item active">
+				<span>Which one is your Favourite</span>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<!-- End Stunning header -->
+
+<section>
+	<div class="container">
+		<div class="row">
+
+			<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+				<div class="clients-grid">
+
+
+
+					<div class="row sorting-container" id="products-grid-1" data-layout="masonry">
+						<div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12  sorting-item coffee-mugs">
+
+
+							<!-- Product Item -->
+
+							<div class="shop-product-item product-item-v2">
+								<div class="product-thumb">
+									<div class="block-title">
+										<a href="67-OlympusCompanyPageMerchandiseMasonry.html#" class="h5 title">Adelaide Strikers</a>
+									</div>
+
+									<img src="{% static 'img2/ads.jpg'%}" alt="product">
+
+									<a href="{% url 'nutritionapp:strikersview'%}" class="btn btn-blue btn-md-2" target="_blank">View Stats</a>
+								</div>
+							</div>
+
+							<!-- ... end Product Item -->
+
+						</div>
+
+						<div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12  sorting-item coffee-mugs">
+
+
+							<!-- Product Item -->
+
+							<div class="shop-product-item product-item-v2">
+								<div class="product-thumb">
+									<div class="block-title">
+										<a href="67-OlympusCompanyPageMerchandiseMasonry.html#" class="h5 title">Brisbane Heat</a>
+									</div>
+
+									<img src="{% static 'img2/bh.jpg'%}" alt="product">
+									<a href="{% url 'nutritionapp:heatview'%}" class="btn btn-blue btn-md-2" target="_blank">View stats</a>
+								</div>
+							</div>
+
+							<!-- ... end Product Item -->
+
+						</div>
+
+						<div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12  sorting-item coffee-mugs">
+
+
+							<!-- Product Item -->
+
+							<div class="shop-product-item product-item-v2">
+								<div class="product-thumb">
+									<div class="block-title">
+										<a href="67-OlympusCompanyPageMerchandiseMasonry.html#" class="h5 title">Sydney Sixers</a>
+									</div>
+									<img src="{% static 'img2/ss.jpg'%}" alt="product">
+									<a href="{% url 'nutritionapp:sixersview'%}" class="btn btn-blue btn-md-2" target="_blank">View Stats</a>
+								</div>
+							</div>
+
+							<!-- ... end Product Item -->
+
+						</div>
+						<div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12  sorting-item coffee-mugs">
+
+
+							<!-- Product Item -->
+
+							<div class="shop-product-item product-item-v2">
+								<div class="product-thumb">
+									<div class="block-title">
+										<a href="67-OlympusCompanyPageMerchandiseMasonry.html#" class="h5 title">Hobart Hurricanes</a>
+									</div>
+
+									<img src="{% static 'img2/hh.jpg'%}" alt="product">
+									<a href="{% url 'nutritionapp:hurricanesview'%}" class="btn btn-blue btn-md-2" target="_blank">View Stats</a>
+								</div>
+							</div>
+
+							<!-- ... end Product Item -->
+
+						</div>
+
+						<div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12  sorting-item coffee-mugs">
+
+
+							<!-- Product Item -->
+
+							<div class="shop-product-item product-item-v2">
+								<div class="product-thumb">
+									<div class="block-title">
+										<a href="67-OlympusCompanyPageMerchandiseMasonry.html#" class="h5 title">Perth Scorchers</a>
+									</div>
+									<img src="{% static 'img2/ps.jpg'%}" alt="product">
+									<a href="{% url 'nutritionapp:scorchersview'%}" class="btn btn-blue btn-md-2" target="_blank">View Stats</a>
+								</div>
+							</div>
+
+							<!-- ... end Product Item -->
+
+						</div>
+
+						<div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12  sorting-item coffee-mugs">
+
+
+							<!-- Product Item -->
+
+							<div class="shop-product-item product-item-v2">
+								<div class="product-thumb">
+									<div class="block-title">
+										<a href="67-OlympusCompanyPageMerchandiseMasonry.html#" class="h5 title">Big Bash League</a>
+									</div>
+									<img src="{% static 'img2/ml.jpg'%}" alt="product">
+									<a href="https://www.bigbash.com.au/" class="btn btn-blue btn-md-2" target="_blank">Visit Us</a>
+								</div>
+							</div>
+
+							<!-- ... end Product Item -->
+
+						</div>
+
+						<div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12  sorting-item coffee-mugs">
+
+
+							<!-- Product Item -->
+
+							<div class="shop-product-item product-item-v2">
+								<div class="product-thumb">
+									<div class="block-title">
+										<a href="67-OlympusCompanyPageMerchandiseMasonry.html#" class="h5 title">Melbourne Renegades</a>
+									</div>
+									<img src="{% static 'img2/mr.jpg'%}" alt="product">
+									<a href="{% url 'nutritionapp:renegadesview'%}" class="btn btn-blue btn-md-2" target="_blank">View Stats</a>
+								</div>
+							</div>
+
+							<!-- ... end Product Item -->
+
+						</div>
+
+						<div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12  sorting-item coffee-mugs">
+
+
+							<!-- Product Item -->
+
+							<div class="shop-product-item product-item-v2">
+								<div class="product-thumb">
+									<div class="block-title">
+										<a href="67-OlympusCompanyPageMerchandiseMasonry.html#" class="h5 title">Sydney Thunder</a>
+									</div>
+									<img src="{% static 'img2/st.jpg'%}" alt="product">
+									<a href="{% url 'nutritionapp:thundersview'%}" class="btn btn-blue btn-md-2" target="_blank">View Stats</a>
+								</div>
+							</div>
+
+							<!-- ... end Product Item -->
+
+						</div>
+
+						<div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12  sorting-item coffee-mugs">
+
+
+							<!-- Product Item -->
+
+							<div class="shop-product-item product-item-v2">
+								<div class="product-thumb">
+									<div class="block-title">
+										<a href="67-OlympusCompanyPageMerchandiseMasonry.html#" class="h5 title">Melbourne Stars</a>
+									</div>
+									<img src="{% static 'img2/ms.jpg'%}" alt="product">
+									<a href="{% url 'nutritionapp:starsview'%}" class="btn btn-blue btn-md-2" target="_blank">View Stats</a>
+								</div>
+							</div>
+
+							<!-- ... end Product Item -->
+
+						</div>
+
+
+
+							<!-- ... end Product Item -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<h1>Tournament Statistics</h1>
+	<div class="panel-body text-center" style="width:500px; height:300px; display:inline-block" id="imgdiv">
+		<h5>Team Wise Wickets</h5>
+	  <img src="{%static 'img3/PerTeamWickets.png'%}" width="500" height="300" alt="Catches Taken">
+	</div>
+	<div class="panel-body text-center" style="width:500px; height:300px; display:inline-block" id="imgdiv">
+		<h5>Highest Average Per Team</h5>
+		<img src="{%static 'img3/HighestAverage.png'%}" width="500" height="300" alt="Catches Taken">
+	</div>
+</section>
+
+
+<a class="back-to-top" href="67-OlympusCompanyPageMerchandiseMasonry.html#">
+	<img src="{% static 'svg-icons2/back-to-top.svg' %}" alt="arrow" class="back-icon">
+</a>
+
+
+<!-- JS Scripts -->
+<script src="{% static 'js2/jquery-3.2.1.js' %}"></script>
+<script src="{% static 'js2/jquery.appear.js' %}"></script>
+<script src="{% static 'js2/jquery.mousewheel.js' %}"></script>
+<script src="{% static 'js2/perfect-scrollbar.js' %}"></script>
+<script src="{% static 'js2/jquery.matchHeight.js' %}"></script>
+<script src="{% static 'js2/svgxuse.js' %}"></script>
+<script src="{% static 'js2/imagesloaded.pkgd.js' %}"></script>
+<script src="{% static 'js2/Headroom.js' %}"></script>
+<script src="{% static 'js2/velocity.js' %}"></script>
+<script src="{% static 'js2/ScrollMagic.js' %}"></script>
+<script src="{% static 'js2/jquery.waypoints.js' %}"></script>
+<script src="{% static 'js2/jquery.countTo.js' %}"></script>
+<script src="{% static 'js2/popper.min.js' %}"></script>
+<script src="{% static 'js2/material.min.js' %}"></script>
+<script src="{% static 'js2/bootstrap-select.js' %}"></script>
+<script src="{% static 'js2/smooth-scroll.js' %}"></script>
+<script src="{% static 'js2/selectize.js' %}"></script>
+<script src="{% static 'js2/swiper.jquery.js' %}"></script>
+<script src="{% static 'js2/moment.js' %}"></script>
+<script src="{% static 'js2/daterangepicker.js' %}"></script>
+<script src="{% static 'js2/simplecalendar.js' %}"></script>
+<script src="{% static 'js2/fullcalendar.js' %}"></script>
+<script src="{% static 'js2/isotope.pkgd.js' %}"></script>
+<script src="{% static 'js2/ajax-pagination.js' %}"></script>
+<script src="{% static 'js2/Chart.js' %}"></script>
+<script src="{% static 'js2/chartjs-plugin-deferred.js' %}"></script>
+<script src="{% static 'js2/circle-progress.js' %}"></script>
+<script src="{% static 'js2/loader.js' %}"></script>
+<script src="{% static 'js2/run-chart.js' %}"></script>
+<script src="{% static 'js2/jquery.magnific-popup.js' %}"></script>
+<script src="{% static 'js2/jquery.gifplayer.js' %}"></script>
+<script src="{% static 'js2/mediaelement-and-player.js' %}"></script>
+<script src="{% static 'js2/mediaelement-playlist-plugin.min.js' %}"></script>
+
+<script src="{% static 'js2/base-init.js' %}"></script>
+<script defer src="fonts/fontawesome-all.js"></script>
+
+<script src="{% static 'Bootstrap2/dist/js/bootstrap.bundle.js' %}"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,566 @@
+{% extends 'blank.html' %}
+{% load staticfiles %}
+{% block head_block %}
+{% endblock %}
+{% block body_block %}
+<h1>Melbourne Renegades</h1>
+
+<div class="panel-body text-center" style="width:500px; height:300px; display:inline-block" id="line2container">
+  <canvas id="line2" height="300" width="500" style="width: 500px; height: 300px;; display="block"; onclick="chart1();"></canvas>
+</div>
+
+<div class="panel-body text-center" style="width:500px; height:300px; display:inline-block" id="line2container">
+  <canvas id="line3" height="300" width="500" style="width: 500px; height: 300px;; display="block"; onclick="chart3();"></canvas>
+</div>
+<hr>
+
+<div class="panel-body text-center" style="width:250px; height:300px; display:inline-block" id="lbwcontainer">
+  <canvas id="line_lbw" height="300" width="300" style="width: 300px; height: 300px; display="block"; onclick="chart_out_lbw();"></canvas>
+</div>
+<div class="panel-body text-center" style="width:250px; height:300px; display:inline-block" id="bowledcontainer">
+  <canvas id="line_bowled" height="300" width="300" style="width: 300px; height: 300px; display="block"; onclick="chart_out_bowled();"></canvas>
+</div>
+<div class="panel-body text-center" style="width:250px; height:300px; display:inline-block" id="caughtcontainer">
+  <canvas id="line_caught" height="300" width="300" style="width: 300px; height: 300px; display="block"; onclick="chart_out_caught();"></canvas>
+</div>
+<div class="panel-body text-center" style="width:250px; height:300px; display:inline-block" id="runoutcontainer">
+  <canvas id="line_runout" height="300" width="300" style="width: 300px; height: 300px; display="block"; onclick="chart_out_runout();"></canvas>
+</div>
+<hr>
+
+<div class="panel-body text-center" style="width:300px; height:300px; display:inline-block" id="line3container">
+  <canvas id="line_disbowl" height="300" width="300" style="width: 300px; height: 300px; display="block"; onclick="chart4();"></canvas>
+</div>
+<div class="panel-body text-center" style="width:300px; height:300px; display:inline-block" id="line3container">
+  <canvas id="line_disbowl_lp" height="300" width="300" style="width: 300px; height: 300px; display="block"; onclick="chart4();"></canvas>
+</div>
+
+<br>
+<h5>Catches Taken:</h5>
+<div class="panel-body text-center" style="width:500px; height:300px; display:inline-block" id="imgdiv">
+  <img src="{%static 'img3/Reneg_ct.png'%}" width="500" height="300" alt="Catches Taken">
+</div>
+{% endblock %}
+{% block foot_block %}
+<script src="{% static 'js/Chart.js' %}"></script>
+<script type="text/javascript">
+  function chart_out_lbw(){
+    var powerp=JSON.parse('{{dmode_renegades_dict|safe}}')
+    //console.log(powerp);
+    //debugger;
+    names=[];
+    sr=[];
+    for(var i in powerp){
+      if(powerp[i]['lbw']>0)
+      {
+        names.push(i);
+        sr.push(powerp[i]['lbw']);
+      }
+    }
+  //  console.log(sr);
+    var ct_lbw = document.getElementById("line_lbw").getContext('2d');
+    var myChart_lbw = new Chart(ct_lbw, {
+      type: 'bar',
+      data:{
+        labels : names,
+        datasets : [
+        {
+          backgroundColor : "rgba(0,0,255,0.4)",
+          borderWidth:2,
+          data : sr,
+        }
+        ],
+      },
+      options: {
+        legend: { display: false },
+        title: {
+          display: true,
+          text: 'Number of times batsman getting out on lbw'
+        },
+        scales: {
+          yAxes: [{
+            ticks: {
+              autoSkip: false,
+              beginAtZero: true
+            },
+          }],
+        }
+      }
+    });
+  }
+  function chart_out_bowled(){
+    var powerp=JSON.parse('{{dmode_renegades_dict|safe}}')
+    //console.log(powerp);
+    //debugger;
+    names=[];
+    sr=[];
+    for(var i in powerp){
+      if(powerp[i]['bowled']>0)
+      {
+        names.push(i);
+        sr.push(powerp[i]['bowled']);
+      }
+    }
+    //console.log(sr);
+    var ct_bowled = document.getElementById("line_bowled").getContext('2d');
+    var myChart_bowled = new Chart(ct_bowled, {
+      type: 'bar',
+      data:{
+        labels : names,
+        datasets : [
+        {
+          backgroundColor : "rgba(0,0,255,0.4)",
+          borderWidth:2,
+          data : sr,
+        }
+        ],
+      },
+      options: {
+        legend: { display: false },
+        title: {
+          display: true,
+          text: 'Number of times batsman getting bowled'
+        },
+        scales: {
+          yAxes: [{
+            ticks: {
+              autoSkip: false,
+              beginAtZero: true
+            },
+          }],
+        }
+      }
+    });
+  }
+
+  function chart_out_caught(){
+    var powerp=JSON.parse('{{dmode_renegades_dict|safe}}')
+    //console.log(powerp);
+    //debugger;
+    names=[];
+    sr=[];
+    for(var i in powerp){
+      if(powerp[i]['caught']>0)
+      {
+        names.push(i);
+        sr.push(powerp[i]['caught']);
+      }
+    }
+    //console.log(sr);
+    var ct_caught = document.getElementById("line_caught").getContext('2d');
+    var myChart_caught = new Chart(ct_caught, {
+      type: 'bar',
+      data:{
+        labels : names,
+        datasets : [
+        {
+          backgroundColor : "rgba(0,0,255,0.4)",
+          borderWidth:2,
+          data : sr,
+        }
+        ],
+      },
+      options: {
+        legend: { display: false },
+        title: {
+          display: true,
+          text: 'Number of times batsman getting Caught'
+        },
+        scales: {
+          yAxes: [{
+            ticks: {
+              autoSkip: false,
+              beginAtZero: true
+            },
+          }],
+        }
+      }
+    });
+  }
+
+  function chart_out_runout(){
+    var powerp=JSON.parse('{{dmode_renegades_dict|safe}}')
+    //console.log(powerp);
+    //debugger;
+    names=[];
+    sr=[];
+    flag=0
+    for(var i in powerp){
+      if(powerp[i]['run out']>0)
+      {
+        names.push(i);
+        sr.push(powerp[i]['run out']);
+        flag=1
+      }
+    }
+    //console.log(sr);
+    if (flag==1){
+          var ct_runout = document.getElementById("line_runout").getContext('2d');
+          var myChart_runout = new Chart(ct_runout, {
+            type: 'bar',
+            data:{
+              labels : names,
+              datasets : [
+              {
+                backgroundColor : "rgba(0,0,255,0.4)",
+                borderWidth:2,
+                data : sr,
+              }
+              ],
+            },
+            options: {
+              legend: { display: false },
+              title: {
+                display: true,
+                text: 'Number of times batsman getting Runout'
+              },
+              scales: {
+                yAxes: [{
+                  ticks: {
+                    autoSkip: false,
+                    beginAtZero: true
+                  },
+                }],
+              }
+            }
+          });
+        }
+  }
+
+  function chart1(){
+    var powerp=JSON.parse('{{powerplay_renegades_dict|safe}}')
+    names=[];
+    sr=[];
+    for(var i in powerp){
+      if(powerp[i]['strike_rate']>0)
+      {
+        names.push(i);
+        sr.push(powerp[i]['strike_rate']);
+      }
+    }
+    var ctx1 = document.getElementById("line2").getContext('2d');
+    var myChart1 = new Chart(ctx1, {
+      type: 'bar',
+      data:{
+        labels : names,
+        datasets : [
+        {
+          backgroundColor : "rgba(0,0,255,0.4)",
+          strokeColor : "rgba(255,0,0,0.5)",
+          data : sr,
+        }
+        ],
+      },
+      options: {
+        legend: { display: false },
+        title: {
+          display: true,
+          text: 'Strike Rate Analysis for PowerPlay'
+        },
+        scales: {
+          yAxes: [{
+            ticks: {
+              autoSkip: false,
+              beginAtZero: true
+            },
+            scaleLabel: {
+              display: true,
+              labelString: 'Strike Rate'
+            }
+          }],
+          xAxes: [{
+            ticks: {
+              autoSkip: false
+            },
+            scaleLabel: {
+              display: true,
+              labelString: 'Batsman'
+            }
+          }]
+        }
+      }
+    });
+  }
+
+  function chart3(){
+    // var jobj=JSON.parse('{{powerplaystriker_dict|safe}}');
+
+    var death=JSON.parse('{{death_renegades_dict|safe}}')
+    //console.log(powerp);
+    // console.log(death_renegades_dict);
+
+    names=[];
+    sr=[];
+    for(var i in death){
+      if (death[i]['strike_rate']!=0){
+        names.push(i);
+        sr.push(death[i]['strike_rate']);
+      }
+
+    }
+//    console.log(sr,names);
+    var ctx3 = document.getElementById("line3").getContext('2d');
+  //  console.log(death);
+    var myChart3 = new Chart(ctx3, {
+      type: 'bar',
+      data:{
+        labels : names,
+        datasets : [
+        {
+          backgroundColor : "rgba(255,0,0,0.5)",
+          strokeColor : "rgba(255,0,0,0.2)",
+          data : sr,
+        }
+        ],
+      },
+      options: {
+        legend: { display: false },
+        title: {
+          display: true,
+          text: 'Death Over Strike Rate Analysis'
+        },
+        scales: {
+          yAxes: [{
+            ticks: {
+              autoSkip: false,
+              beginAtZero: true
+            },
+            scaleLabel: {
+              display: true,
+              labelString: 'Strike Rate'
+            }
+          }],
+          xAxes: [{
+            ticks: {
+              autoSkip: false
+            },
+            scaleLabel: {
+              display: true,
+              labelString: 'Player Name'
+            }
+          }]
+        }
+      }
+    });
+  }
+
+  function chart4(){
+    // var jobj=JSON.parse('{{powerplaystriker_dict|safe}}');
+
+    var dis=JSON.parse('{{disbowltype_renegades_dict|safe}}')
+    //console.log(powerp);
+    // console.log(death_renegades_dict);
+    var flag = 0
+    names=[];
+    ls=[];
+    for(var i in dis){
+      if (dis[i]['left_spin']!=0){
+        names.push(i);
+        ls.push(dis[i]['left_spin']);
+        flag=1;
+      }
+    }
+    //console.log(sr,names);
+    if(flag==1){
+      var ctx4 = document.getElementById("line_disbowl").getContext('2d');
+      //console.log(death);
+      var myChart3 = new Chart(ctx4, {
+        type: 'bar',
+        data:{
+          labels : names,
+          datasets : [
+          {
+            backgroundColor : "rgba(51,51,51,0.5)",
+            strokeColor : "rgba(51,51,51,0.5)",
+            data : ls,
+          }
+          ],
+        },
+        options: {
+          legend: { display: false },
+          title: {
+            display: true,
+            text: 'Spin Victims'
+          },
+          scales: {
+            yAxes: [{
+              ticks: {
+                autoSkip: false,
+                beginAtZero: true
+              },
+            }],
+          }
+        }
+        });
+}
+
+  }
+
+  function chart4_lp(){
+
+    var dis=JSON.parse('{{disbowltype_renegades_dict|safe}}')
+
+    var flag = 0
+    names=[];
+    lp=[];
+    for(var i in dis){
+      if (dis[i]['left_pace']!=0){
+        names.push(i);
+        lp.push(dis[i]['left_pace']);
+        flag=1;
+      }
+    }
+    console.log(lp,names);
+    if(flag==1)
+    {
+      var ctx5 = document.getElementById("line_disbowl_lp").getContext('2d');
+      //console.log(death);
+      var myChart3 = new Chart(ctx5, {
+        type: 'bar',
+        data:{
+          labels : names,
+          datasets : [
+          {
+            backgroundColor : "rgba(51,51,51,0.5)",
+            strokeColor : "rgba(51,51,51,0.5)",
+            data : lp,
+          }
+          ],
+        },
+        options: {
+          legend: { display: false },
+          title: {
+            display: true,
+            text: 'Pace Victims '
+          },
+          scales: {
+            yAxes: [{
+              ticks: {
+                autoSkip: false,
+                beginAtZero: true
+              },
+            }],
+          }
+        }
+        });
+    }
+  }
+
+
+
+  function chart4_rs(){
+
+    var dis=JSON.parse('{{disbowltype_renegades_dict|safe}}')
+
+    var flag = 0
+    names=[];
+    rs=[];
+    for(var i in dis){
+      if (dis[i]['right_spin']!=0){
+        names.push(i);
+        rs.push(dis[i]['right_spin']);
+        flag=1;
+      }
+    }
+    //console.log(sr,names);
+    if(flag==1)
+    {
+      var ctx6 = document.getElementById("line_disbowl_rs").getContext('2d');
+      //console.log(death);
+      var myChart3 = new Chart(ctx6, {
+        type: 'bar',
+        data:{
+          labels : names,
+          datasets : [
+          {
+            backgroundColor : "rgba(51,51,51,0.5)",
+            strokeColor : "rgba(51,51,51,0.5)",
+            data : rs,
+          }
+          ],
+        },
+        options: {
+          legend: { display: false },
+          title: {
+            display: true,
+            text: 'Right Spin Victims '
+          },
+          scales: {
+            yAxes: [{
+              ticks: {
+                autoSkip: false,
+                beginAtZero: true
+              },
+            }],
+          }
+        }
+        });
+    }
+  }
+
+
+
+  function chart4_rp(){
+    var dis=JSON.parse('{{disbowltype_renegades_dict|safe}}')
+
+    var flag = 0
+    names=[];
+    rp=[];
+    for(var i in dis){
+      if (dis[i]['right_pace']!=0){
+        names.push(i);
+        rp.push(dis[i]['right_pace']);
+        flag=0;
+      }
+    }
+    if(flag==1)
+    {
+      var ctx7 = document.getElementById("line_disbowl_rp").getContext('2d');
+      var myChart3 = new Chart(ctx7, {
+        type: 'bar',
+        data:{
+          labels : names,
+          datasets : [
+          {
+            backgroundColor : "rgba(51,51,51,0.5)",
+            strokeColor : "rgba(51,51,51,0.5)",
+            data : ls,
+          }
+          ],
+        },
+        options: {
+          legend: { display: false },
+          title: {
+            display: true,
+            text: 'Right Pace Victims '
+          },
+          scales: {
+            yAxes: [{
+              ticks: {
+                autoSkip: false,
+                beginAtZero: true
+              },
+            }],
+          }
+        }
+      });
+    }
+  }
+  function start() {
+    chart1();
+    chart3();
+    chart_out_lbw()
+    chart4();
+    chart4_lp();
+    chart4_rs();
+    chart4_rp();
+    chart_out_bowled();
+    chart_out_caught();
+    chart_out_runout();
+  }
+  window.onload = start;
+
+
+</script>
+
+{% endblock %}

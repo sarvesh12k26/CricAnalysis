@@ -1,0 +1,207 @@
+MatchDateSK,Team 1,Team 2,Winner,Margin,Ground,Match Date,MatchID,IsSemiFinal,IsFinal,Season_Year
+20111216,Syd Sixers,Heat,Syd Sixers,7 wickets,Sydney,16-Dec-11,524915,0,0,2011
+20111217,Melb Stars,Syd Thunder,Syd Thunder,6 wickets,Melbourne,17-Dec-11,524916,0,0,2011
+20111218,Scorchers,Hurricanes,Hurricanes,31 runs,Perth,18-Dec-11,524918,0,0,2011
+20111218,Strikers,Melb Reneg,Strikers,67 runs,Adelaide,18-Dec-11,524917,0,0,2011
+20111220,Heat,Melb Stars,Melb Stars,8 runs,Brisbane,20-Dec-11,524919,0,0,2011
+20111221,Hurricanes,Syd Sixers,Hurricanes,42 runs,Hobart,21-Dec-11,524920,0,0,2011
+20111222,Melb Reneg,Scorchers,Scorchers,8 wickets,Melbourne (Docklands),22-Dec-11,524921,0,0,2011
+20111223,Syd Thunder,Strikers,Syd Thunder,6 wickets,Sydney,23-Dec-11,524922,0,0,2011
+20111227,Syd Sixers,Melb Stars,Syd Sixers,2 runs,Sydney,27-Dec-11,524923,0,0,2011
+20111228,Strikers,Hurricanes,Hurricanes,14 runs,Adelaide,28-Dec-11,524924,0,0,2011
+20111229,Scorchers,Heat,Scorchers,10 runs,Perth,29-Dec-11,524925,0,0,2011
+20111230,Syd Thunder,Melb Reneg,Melb Reneg,6 runs,Sydney,30-Dec-11,524926,0,0,2011
+20120101,Hurricanes,Syd Thunder,Hurricanes,5 wickets,Hobart,1-Jan-12,524927,0,0,2011
+20120102,Melb Reneg,Syd Sixers,Melb Reneg,8 wickets,Melbourne (Docklands),2-Jan-12,524928,0,0,2011
+20120103,Heat,Strikers,Strikers,31 runs,Brisbane,3-Jan-12,999999,0,0,2011
+20120104,Melb Stars,Scorchers,Scorchers,8 runs,Melbourne,4-Jan-12,524930,0,0,2011
+20120106,Heat,Hurricanes,Heat,3 runs,Brisbane,6-Jan-12,999999,0,0,2011
+20120107,Melb Stars,Melb Reneg,Melb Stars,11 runs,Melbourne,7-Jan-12,999999,0,0,2011
+20120108,Syd Thunder,Syd Sixers,Syd Sixers,17 runs,Sydney,8-Jan-12,524933,0,0,2011
+20120108,Scorchers,Strikers,Scorchers,42 runs,Perth,8-Jan-12,524934,0,0,2011
+20120109,Hurricanes,Melb Stars,Melb Stars,19 runs,Hobart,9-Jan-12,524935,0,0,2011
+20120110,Strikers,Syd Sixers,Syd Sixers,64 runs,Adelaide,10-Jan-12,524936,0,0,2011
+20120111,Syd Thunder,Scorchers,Scorchers,9 wickets,Sydney,11-Jan-12,999999,0,0,2011
+20120112,Melb Reneg,Heat,Heat,12 runs,Melbourne (Docklands),12-Jan-12,524938,0,0,2011
+20120117,Heat,Syd Thunder,Heat,91 runs,Brisbane,17-Jan-12,524939,0,0,2011
+20120118,Syd Sixers,Scorchers,Syd Sixers,1 run,Sydney,18-Jan-12,524941,0,0,2011
+20120118,Hurricanes,Melb Reneg,Hurricanes,7 wickets,Hobart,18-Jan-12,524940,0,0,2011
+20120119,Melb Stars,Strikers,Melb Stars,6 wickets,Melbourne,19-Jan-12,524942,0,0,2011
+20120121,Scorchers,Melb Stars,Scorchers,11 runs,Perth,21-Jan-12,524943,1,0,2011
+20120122,Hurricanes,Syd Sixers,Syd Sixers,7 runs,Hobart,22-Jan-12,524944,1,0,2011
+20120128,Scorchers,Syd Sixers,Syd Sixers,7 wickets,Perth,28-Jan-12,524945,0,1,2011
+20121207,Melb Reneg,Melb Stars,Melb Reneg,8 wickets,Melbourne (Docklands),7-Dec-12,571232,0,0,2012
+20121208,Syd Sixers,Syd Thunder,Syd Sixers,7 wickets,Sydney,8-Dec-12,571233,0,0,2012
+20121209,Heat,Hurricanes,Hurricanes,8 wickets,Brisbane,9-Dec-12,571234,0,0,2012
+20121209,Scorchers,Strikers,Strikers,6 wickets,Perth,9-Dec-12,571235,0,0,2012
+20121212,Scorchers,Melb Stars,Melb Stars,24 runs,Perth,12-Dec-12,571236,0,0,2012
+20121213,Strikers,Heat,Heat,3 wickets,Adelaide,13-Dec-12,571237,0,0,2012
+20121214,Syd Thunder,Melb Reneg,Melb Reneg,5 wickets,Sydney,14-Dec-12,571238,0,0,2012
+20121215,Melb Stars,Hurricanes,Melb Stars,4 wickets,Melbourne,15-Dec-12,571239,0,0,2012
+20121216,Syd Sixers,Scorchers,Scorchers,7 wickets,Sydney,16-Dec-12,571240,0,0,2012
+20121218,Heat,Scorchers,Scorchers,9 wickets,Brisbane,18-Dec-12,571241,0,0,2012
+20121219,Melb Reneg,Hurricanes,Melb Reneg,7 wickets,Melbourne (Docklands),19-Dec-12,571242,0,0,2012
+20121220,Syd Thunder,Strikers,Strikers,51 runs,Sydney,20-Dec-12,571243,0,0,2012
+20121221,Melb Stars,Syd Sixers,Melb Stars,21 runs,Melbourne,21-Dec-12,999999,0,0,2012
+20121222,Melb Reneg,Heat,Melb Reneg,6 wickets,Melbourne (Docklands),22-Dec-12,571245,0,0,2012
+20121223,Hurricanes,Syd Thunder,Hurricanes,30 runs,Hobart,23-Dec-12,999999,0,0,2012
+20121223,Strikers,Syd Sixers,Strikers,9 wickets,Adelaide,23-Dec-12,571247,0,0,2012
+20121226,Syd Sixers,Hurricanes,Hurricanes,7 wickets,Sydney,26-Dec-12,571248,0,0,2012
+20121227,Strikers,Melb Stars,Melb Stars,8 runs,Adelaide,27-Dec-12,571249,0,0,2012
+20121228,Syd Thunder,Heat,Heat,5 wickets,Sydney,28-Dec-12,571250,0,0,2012
+20121229,Scorchers,Melb Reneg,Scorchers,51 runs,Perth,29-Dec-12,571251,0,0,2012
+20121230,Syd Thunder,Syd Sixers,Syd Sixers,4 wickets,Sydney,30-Dec-12,571252,0,0,2012
+20130101,Hurricanes,Scorchers,Hurricanes,6 wickets,Hobart,1-Jan-13,999999,0,0,2012
+20130102,Melb Reneg,Strikers,Melb Reneg,48 runs,Melbourne (Docklands),2-Jan-13,571254,0,0,2012
+20130103,Heat,Melb Stars,Heat,24 runs,Brisbane,3-Jan-13,999999,0,0,2012
+20130104,Scorchers,Syd Thunder,Scorchers,9 wickets,Perth,4-Jan-13,571256,0,0,2012
+20130105,Hurricanes,Strikers,Strikers,38 runs,Hobart,5-Jan-13,999999,0,0,2012
+20130106,Melb Stars,Melb Reneg,Melb Reneg,9 wickets,Melbourne,6-Jan-13,571258,0,0,2012
+20130107,Heat,Syd Sixers,Syd Sixers,5 wickets,Brisbane,7-Jan-13,571259,0,0,2012
+20130108,Melb Stars,Syd Thunder,Melb Stars,13 runs,Melbourne,8-Jan-13,571260,0,0,2012
+20130109,Syd Sixers,Melb Reneg,Melb Reneg,29 runs,Sydney,9-Jan-13,999999,0,0,2012
+20130110,Strikers,Scorchers,Scorchers,98 runs,Adelaide,10-Jan-13,571262,0,0,2012
+20130112,Hurricanes,Heat,Heat,8 wickets,Hobart,12-Jan-13,999999,0,0,2012
+20130115,Melb Reneg,Heat,Heat,15 runs,Melbourne (Docklands),15-Jan-13,571264,1,0,2012
+20130116,Scorchers,Melb Stars,Scorchers,8 wickets,Perth,16-Jan-13,571265,1,0,2012
+20130119,Scorchers,Heat,Heat,34 runs,Perth,19-Jan-13,571266,0,1,2012
+20131220,Melb Stars,Melb Reneg,Melb Stars,76 runs,Melbourne,20-Dec-13,654031,0,0,2013
+20131221,Syd Sixers,Syd Thunder,Syd Sixers,6 wickets,Sydney,21-Dec-13,654033,0,0,2013
+20131222,Hurricanes,Strikers,no result,,Hobart,22-Dec-13,654035,0,0,2013
+20131222,Heat,Scorchers,Heat,3 wickets,Brisbane,22-Dec-13,654037,0,0,2013
+20131226,Scorchers,Melb Reneg,Scorchers,6 runs,Perth,26-Dec-13,654039,0,0,2013
+20131227,Syd Thunder,Strikers,Strikers,6 runs,Sydney,27-Dec-13,654041,0,0,2013
+20131228,Heat,Hurricanes,Hurricanes,3 wickets,Brisbane,28-Dec-13,654043,0,0,2013
+20131229,Syd Sixers,Melb Stars,Melb Stars,77 runs,Sydney,29-Dec-13,654045,0,0,2013
+20131230,Melb Reneg,Heat,Melb Reneg,57 runs,Melbourne (Docklands),30-Dec-13,654047,0,0,2013
+20131231,Strikers,Scorchers,Strikers,6 wickets,Adelaide,31-Dec-13,999999,0,0,2013
+20140101,Hurricanes,Melb Reneg,Melb Reneg,51 runs,Hobart,1-Jan-14,654051,0,0,2013
+20140101,Syd Thunder,Melb Stars,Melb Stars,7 wickets,Sydney,1-Jan-14,654053,0,0,2013
+20140102,Heat,Syd Sixers,Syd Sixers,4 runs,Brisbane,2-Jan-14,654055,0,0,2013
+20140103,Scorchers,Syd Thunder,Scorchers,6 wickets,Perth,3-Jan-14,654057,0,0,2013
+20140104,Melb Reneg,Melb Stars,Melb Stars,9 wickets,Melbourne (Docklands),4-Jan-14,654059,0,0,2013
+20140105,Strikers,Syd Sixers,Syd Sixers,6 wickets,Adelaide,5-Jan-14,654061,0,0,2013
+20140107,Scorchers,Hurricanes,Scorchers,6 runs,Perth,7-Jan-14,654063,0,0,2013
+20140108,Syd Thunder,Heat,Heat,48 runs,Sydney,8-Jan-14,654065,0,0,2013
+20140109,Melb Stars,Strikers,Melb Stars,8 wickets,Melbourne,9-Jan-14,654067,0,0,2013
+20140110,Syd Sixers,Scorchers,tied,,Sydney,10-Jan-14,654069,0,0,2013
+20140111,Hurricanes,Syd Thunder,Hurricanes,73 runs,Hobart,11-Jan-14,654071,0,0,2013
+20140111,Heat,Melb Stars,Melb Stars,3 wickets,Brisbane,11-Jan-14,654073,0,0,2013
+20140114,Melb Reneg,Syd Thunder,Syd Thunder,9 wickets,Melbourne (Docklands),14-Jan-14,654075,0,0,2013
+20140115,Syd Sixers,Hurricanes,Syd Sixers,7 runs,Sydney,15-Jan-14,654077,0,0,2013
+20140116,Scorchers,Strikers,Scorchers,5 runs,Perth,16-Jan-14,654079,0,0,2013
+20140118,Melb Reneg,Syd Sixers,Syd Sixers,2 runs,Melbourne (Docklands),18-Jan-14,654083,0,0,2013
+20140118,Strikers,Heat,Heat,32 runs,Adelaide,18-Jan-14,654081,0,0,2013
+20140121,Melb Stars,Hurricanes,Melb Stars,5 wickets,Melbourne,21-Jan-14,654085,0,0,2013
+20140122,Strikers,Melb Reneg,Melb Reneg,1 run,Adelaide,22-Jan-14,654087,0,0,2013
+20140123,Hurricanes,Heat,Hurricanes,40 runs,Hobart,23-Jan-14,654089,0,0,2013
+20140125,Syd Thunder,Syd Sixers,Syd Sixers,8 wickets,Sydney,25-Jan-14,654091,0,0,2013
+20140127,Melb Stars,Scorchers,Melb Stars,20 runs,Melbourne,27-Jan-14,654093,0,0,2013
+20140204,Melb Stars,Hurricanes,Hurricanes,7 wickets,Melbourne,4-Feb-14,654095,1,0,2013
+20140205,Syd Sixers,Scorchers,Scorchers,5 runs,Sydney,5-Feb-14,654097,1,0,2013
+20140207,Scorchers,Hurricanes,Scorchers,39 runs,Perth,7-Feb-14,654099,0,1,2013
+20141218,Strikers,Melb Stars,Strikers,8 wickets,Adelaide,18-Dec-14,756735,0,0,2014
+20141219,Syd Sixers,Melb Reneg,Syd Sixers,8 wickets,Sydney,19-Dec-14,756737,0,0,2014
+20141220,Melb Stars,Hurricanes,Hurricanes,52 runs,Melbourne,20-Dec-14,756739,0,0,2014
+20141221,Syd Thunder,Heat,Syd Thunder,56 runs,Sydney,21-Dec-14,756741,0,0,2014
+20141222,Scorchers,Strikers,Strikers,1 wicket,Perth,22-Dec-14,756743,0,0,2014
+20141223,Hurricanes,Syd Sixers,Syd Sixers,7 wickets,Hobart,23-Dec-14,756745,0,0,2014
+20141226,Scorchers,Melb Reneg,Scorchers,35 runs,Perth,26-Dec-14,756747,0,0,2014
+20141227,Syd Thunder,Syd Sixers,Syd Sixers,16 runs,Sydney,27-Dec-14,756749,0,0,2014
+20141228,Heat,Melb Stars,Heat,1 run,Brisbane,28-Dec-14,756751,0,0,2014
+20141229,Syd Sixers,Scorchers,Scorchers,36 runs,Sydney,29-Dec-14,756753,0,0,2014
+20141230,Melb Reneg,Syd Thunder,Melb Reneg,8 wickets,Melbourne (Docklands),30-Dec-14,756755,0,0,2014
+20141231,Strikers,Hurricanes,Strikers,8 wickets,Adelaide,31-Dec-14,756757,0,0,2014
+20150101,Scorchers,Syd Thunder,Syd Thunder,20 runs,Perth,1-Jan-15,756759,0,0,2014
+20150102,Hurricanes,Heat,Hurricanes,6 wickets,Hobart,2-Jan-15,756761,0,0,2014
+20150103,Melb Reneg,Melb Stars,Melb Stars,112 runs,Melbourne (Docklands),3-Jan-15,756763,0,0,2014
+20150104,Heat,Strikers,Strikers,5 wickets,Brisbane,4-Jan-15,756765,0,0,2014
+20150105,Melb Stars,Syd Sixers,tied,,Melbourne,5-Jan-15,756767,0,0,2014
+20150106,Strikers,Scorchers,Scorchers,18 runs,Adelaide,6-Jan-15,756769,0,0,2014
+20150107,Hurricanes,Melb Reneg,Melb Reneg,37 runs,Hobart,7-Jan-15,756789,0,0,2014
+20150108,Scorchers,Heat,Scorchers,8 wickets,Perth,8-Jan-15,756773,0,0,2014
+20150109,Syd Thunder,Hurricanes,Hurricanes,5 wickets,Sydney,9-Jan-15,999999,0,0,2014
+20150110,Melb Stars,Melb Reneg,Melb Stars,3 wickets,Melbourne,10-Jan-15,756777,0,0,2014
+20150111,Heat,Syd Sixers,Syd Sixers,6 wickets,Brisbane,11-Jan-15,756781,0,0,2014
+20150111,Hurricanes,Scorchers,Scorchers,18 runs,Hobart,11-Jan-15,756779,0,0,2014
+20150112,Strikers,Syd Thunder,no result,,Adelaide,12-Jan-15,756783,0,0,2014
+20150113,Melb Reneg,Heat,Melb Reneg,5 wickets,Melbourne (Docklands),13-Jan-15,756785,0,0,2014
+20150114,Syd Sixers,Strikers,Strikers,23 runs,Sydney,14-Jan-15,756787,0,0,2014
+20150115,Heat,Hurricanes,Heat,18 runs,Brisbane,15-Jan-15,756797,0,0,2014
+20150117,Syd Thunder,Melb Stars,Melb Stars,8 wickets,Sydney,17-Jan-15,756791,0,0,2014
+20150119,Melb Reneg,Strikers,Strikers,22 runs,Melbourne (Docklands),19-Jan-15,756793,0,0,2014
+20150121,Melb Stars,Scorchers,Melb Stars,3 wickets,Melbourne,21-Jan-15,756795,0,0,2014
+20150122,Syd Sixers,Syd Thunder,Syd Sixers,4 wickets,Sydney,22-Jan-15,756775,0,0,2014
+20150124,Strikers,Syd Sixers,Syd Sixers,87 runs,Adelaide,24-Jan-15,756799,1,0,2014
+20150125,Scorchers,Melb Stars,Scorchers,18 runs,Perth,25-Jan-15,756801,1,0,2014
+20150128,Scorchers,Syd Sixers,Scorchers,4 wickets,Canberra,28-Jan-15,756803,0,1,2014
+20151217,Syd Thunder,Syd Sixers,Syd Thunder,36 runs,Sydney,17-Dec-15,999999,0,0,2015
+20151218,Strikers,Melb Stars,Strikers,19 runs,Adelaide,18-Dec-15,897697,0,0,2015
+20151219,Heat,Melb Reneg,Melb Reneg,7 wickets,Brisbane,19-Dec-15,897699,0,0,2015
+20151220,Melb Stars,Syd Thunder,Syd Thunder,1 run,Melbourne,20-Dec-15,999999,0,0,2015
+20151220,Syd Sixers,Hurricanes,Syd Sixers,95 runs,Sydney,20-Dec-15,897701,0,0,2015
+20151221,Scorchers,Strikers,Strikers,4 wickets,Perth,21-Dec-15,897705,0,0,2015
+20151222,Hurricanes,Heat,Hurricanes,20 runs,Hobart,22-Dec-15,897707,0,0,2015
+20151223,Melb Reneg,Syd Sixers,Syd Sixers,3 wickets,Melbourne (Docklands),23-Dec-15,897709,0,0,2015
+20151226,Scorchers,Heat,Scorchers,9 wickets,Perth,26-Dec-15,897711,0,0,2015
+20151227,Syd Sixers,Melb Stars,Melb Stars,5 wickets,Sydney,27-Dec-15,897713,0,0,2015
+20151228,Syd Thunder,Strikers,Syd Thunder,7 wickets,Sydney,28-Dec-15,897715,0,0,2015
+20151229,Heat,Hurricanes,Hurricanes,15 runs,Brisbane,29-Dec-15,897717,0,0,2015
+20151230,Melb Reneg,Scorchers,Scorchers,10 wickets,Melbourne (Docklands),30-Dec-15,897719,0,0,2015
+20151231,Strikers,Syd Sixers,Strikers,5 wickets,Adelaide,31-Dec-15,897721,0,0,2015
+20160101,Hurricanes,Syd Thunder,Hurricanes,11 runs,Hobart,1-Jan-16,897723,0,0,2015
+20160102,Scorchers,Syd Sixers,Scorchers,9 wickets,Perth,2-Jan-16,897727,0,0,2015
+20160102,Melb Stars,Melb Reneg,Melb Stars,7 wickets,Melbourne,2-Jan-16,897725,0,0,2015
+20160103,Heat,Syd Thunder,Heat,6 wickets,Brisbane,3-Jan-16,897729,0,0,2015
+20160104,Hurricanes,Melb Reneg,Melb Reneg,5 wickets,Hobart,4-Jan-16,897731,0,0,2015
+20160105,Strikers,Scorchers,Strikers,36 runs,Adelaide,5-Jan-16,897733,0,0,2015
+20160106,Melb Stars,Hurricanes,Melb Stars,8 wickets,Melbourne,6-Jan-16,897735,0,0,2015
+20160107,Syd Thunder,Scorchers,Scorchers,30 runs,Sydney,7-Jan-16,897737,0,0,2015
+20160108,Heat,Strikers,Strikers,8 wickets,Brisbane,8-Jan-16,897739,0,0,2015
+20160109,Melb Reneg,Melb Stars,Melb Stars,8 wickets,Melbourne (Docklands),9-Jan-16,897741,0,0,2015
+20160110,Syd Sixers,Heat,Heat,6 runs,Sydney,10-Jan-16,897745,0,0,2015
+20160110,Hurricanes,Scorchers,Scorchers,1 run,Hobart,10-Jan-16,897743,0,0,2015
+20160111,Syd Thunder,Melb Reneg,Melb Reneg,5 wickets,Sydney,11-Jan-16,897747,0,0,2015
+20160113,Strikers,Hurricanes,Strikers,6 wickets,Adelaide,13-Jan-16,897749,0,0,2015
+20160114,Melb Stars,Heat,Heat,56 runs,Melbourne,14-Jan-16,897751,0,0,2015
+20160116,Syd Sixers,Syd Thunder,Syd Thunder,46 runs,Sydney,16-Jan-16,897753,0,0,2015
+20160116,Scorchers,Melb Stars,Melb Stars,52 runs,Perth,16-Jan-16,999999,0,0,2015
+20160118,Melb Reneg,Strikers,Strikers,27 runs,Melbourne (Docklands),18-Jan-16,897757,0,0,2015
+20160121,Strikers,Syd Thunder,Syd Thunder,8 wickets,Adelaide,21-Jan-16,897759,1,0,2015
+20160122,Melb Stars,Scorchers,Melb Stars,7 wickets,Melbourne,22-Jan-16,897761,1,0,2015
+20160124,Melb Stars,Syd Thunder,Syd Thunder,3 wickets,Melbourne,24-Jan-16,897763,0,1,2015
+20161220,Syd Thunder,Syd Sixers,Syd Sixers,9 wickets,Sydney,20-Dec-16,1023581,0,0,2016
+20161221,Strikers,Heat,Heat,10 runs,Adelaide,21-Dec-16,1023583,0,0,2016
+20161222,Melb Reneg,Syd Thunder,Melb Reneg,49 runs,Melbourne (Docklands),22-Dec-16,1023585,0,0,2016
+20161223,Scorchers,Strikers,Scorchers,48 runs,Perth,23-Dec-16,1023589,0,0,2016
+20161223,Syd Sixers,Hurricanes,Hurricanes,60 runs,Sydney,23-Dec-16,1023587,0,0,2016
+20161226,Hurricanes,Melb Stars,Melb Stars,7 wickets,Hobart,26-Dec-16,1023591,0,0,2016
+20161227,Syd Sixers,Scorchers,Syd Sixers,6 wickets,Sydney,27-Dec-16,1023593,0,0,2016
+20161228,Syd Thunder,Heat,Heat,3 wickets,Sydney,28-Dec-16,1023595,0,0,2016
+20161229,Melb Reneg,Scorchers,Scorchers,4 wickets,Melbourne (Docklands),29-Dec-16,1023597,0,0,2016
+20161230,Heat,Hurricanes,Heat,7 wickets,Brisbane,30-Dec-16,1023599,0,0,2016
+20161231,Strikers,Syd Sixers,Strikers,48 runs,Adelaide,31-Dec-16,1023601,0,0,2016
+20170101,Melb Stars,Melb Reneg,Melb Reneg,7 runs,Melbourne,1-Jan-17,1023603,0,0,2016
+20170101,Scorchers,Syd Thunder,Scorchers,50 runs,Perth,1-Jan-17,1023605,0,0,2016
+20170102,Hurricanes,Strikers,Hurricanes,8 wickets,Hobart,2-Jan-17,1023607,0,0,2016
+20170103,Heat,Syd Sixers,Syd Sixers,3 wickets,Brisbane,3-Jan-17,1023609,0,0,2016
+20170104,Syd Thunder,Melb Stars,Syd Thunder,6 wickets,Sydney,4-Jan-17,1023611,0,0,2016
+20170105,Scorchers,Heat,Heat,9 wickets,Perth,5-Jan-17,1023613,0,0,2016
+20170106,Strikers,Hurricanes,Strikers,5 wickets,Adelaide,6-Jan-17,1023615,0,0,2016
+20170107,Melb Reneg,Melb Stars,Melb Stars,46 runs,Melbourne (Docklands),7-Jan-17,1023617,0,0,2016
+20170108,Hurricanes,Syd Thunder,Syd Thunder,6 wickets,Hobart,8-Jan-17,1023619,0,0,2016
+20170109,Syd Sixers,Melb Reneg,Syd Sixers,6 wickets,Sydney,9-Jan-17,1023621,0,0,2016
+20170110,Melb Stars,Strikers,Melb Stars,2 wickets,Melbourne,10-Jan-17,1023623,0,0,2016
+20170111,Heat,Scorchers,Scorchers,27 runs,Brisbane,11-Jan-17,1023625,0,0,2016
+20170112,Melb Reneg,Hurricanes,Hurricanes,2 wickets,Melbourne (Docklands),12-Jan-17,1023627,0,0,2016
+20170114,Syd Sixers,Syd Thunder,Syd Thunder,8 wickets,Sydney,14-Jan-17,1023629,0,0,2016
+20170114,Scorchers,Melb Stars,Melb Stars,7 wickets,Perth,14-Jan-17,1023631,0,0,2016
+20170116,Strikers,Melb Reneg,Melb Reneg,6 runs,Adelaide,16-Jan-17,1023633,0,0,2016
+20170117,Melb Stars,Heat,Heat,7 wickets,Melbourne,17-Jan-17,1023635,0,0,2016
+20170118,Syd Thunder,Strikers,Strikers,77 runs,Sydney,18-Jan-17,1023637,0,0,2016
+20170120,Heat,Melb Reneg,Melb Reneg,1 run,Brisbane,20-Jan-17,1023639,0,0,2016
+20170121,Melb Stars,Syd Sixers,Syd Sixers,3 wickets,Melbourne,21-Jan-17,1023643,0,0,2016
+20170121,Hurricanes,Scorchers,Scorchers,7 wickets,Hobart,21-Jan-17,1023641,0,0,2016
+20170124,Scorchers,Melb Stars,Scorchers,7 wickets,Perth,24-Jan-17,1023645,1,0,2016
+20170125,Heat,Syd Sixers,tied,,Brisbane,25-Jan-17,1023647,1,0,2016
+20170128,Scorchers,Syd Sixers,Scorchers,9 wickets,Perth,28-Jan-17,1023649,0,1,2016

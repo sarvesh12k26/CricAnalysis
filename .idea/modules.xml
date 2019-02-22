@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../letschat/.idea/letschat.iml" filepath="$PROJECT_DIR$/../letschat/.idea/letschat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nutritionpro.iml" filepath="$PROJECT_DIR$/.idea/nutritionpro.iml" />
+    </modules>
+  </component>
+</project>
